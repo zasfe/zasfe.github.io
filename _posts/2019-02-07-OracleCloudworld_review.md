@@ -1,14 +1,11 @@
 ---
-author: zasfe
-date: 2019-02-07 17:40:00+09:00
-layout: post
-title: ORACLE CLOUDWORLD 발표자료 리뷰
-categories:
-- 리뷰
-tags:
-- ORACLE
-- 세미나
+title:  "ORACLE CLOUDWORLD 발표자료 리뷰"
+search: true
+categories: 
+  - 리뷰
+last_modified_at: 2019-02-07T17:40:00+09:00
 ---
+
 
 ## ORACLE CLOUDWORLD 발표자료 리뷰
 

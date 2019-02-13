@@ -1,13 +1,9 @@
 ---
-author: zasfe
-date: 2019-01-23 17:40:00+09:00
-layout: post
-title: 로컬 보안 기관에 연결할 수 없습니다.
-categories:
-- 문제해결
-tags:
-- RDP
-- 원격데스크톱연결
+title:  "로컬 보안 기관에 연결할 수 없습니다."
+search: true
+categories: 
+  - 문제해결
+last_modified_at: 2019-01-23T17:40:00+09:00
 ---
 
 ## 증상
