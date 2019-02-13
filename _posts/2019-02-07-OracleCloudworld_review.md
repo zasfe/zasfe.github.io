@@ -4,6 +4,9 @@ search: true
 categories: 
   - 리뷰
 last_modified_at: 2019-02-07T17:40:00+09:00
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 
