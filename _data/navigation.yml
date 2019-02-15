@@ -7,9 +7,11 @@ main:
   - title: "Tags"
     url: /tags/
   - title: "About"
-    url: /about/
-  - title: "Sitemap"
-    url: /sitemap/
+    url: https://zasfe.github.io/
+  # - title: "About"
+  #  url: /about/
+  # - title: "Sitemap"
+  #  url: /sitemap/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
