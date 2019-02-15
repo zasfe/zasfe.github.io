@@ -1,7 +1,6 @@
 ---
-title: "Blog Article"
-layout: archive
-permalink: /article/
+title: &title "Blog articles"
+permalink: /articles/
+layout: articles
+author_profile: true
 ---
-
-A variety of common markup showing how the theme styles them.

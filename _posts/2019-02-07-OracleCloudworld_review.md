@@ -1,18 +1,18 @@
 ---
 title:  "ORACLE CLOUDWORLD 발표자료 리뷰"
-search: true
-categories: 
-  - 리뷰
-last_modified_at: 2019-02-07T17:40:00+09:00
+excerpt: "2019년 1월 29일에 있었던 Oracle CloudWorld Seoul 2019 의 발표자료에 대한 리뷰"
+layout: posts
+categories: [review]
+tags: [Oracle, Cloud]
+comments: false
 toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
+last_modified_at: 2019-02-07T17:40:00+09:00
 ---
 
 
 ## ORACLE CLOUDWORLD 발표자료 리뷰
 
-* 해당 행사에 참석하지는 못했지만 발표자료를 기반으로 저희 생각을 작성하고자 합니다.
+* 해당 행사에 참석하지는 못했지만 발표자료를 기반으로 개인적인 생각을 작성하고자 합니다.
 
 ## KEYNOTE
 * 다양한 환경의 변화에 대응하기 위해 오라클은 **Autonomous(자율)**에 대해서 주로 이야기를 합니다. 작년에는 Autonomous 를 기반으로 DBA가 해야 할 잡무들을 대신 해준다는 느낌이였다면, **올해에는 머신 러닝을 바탕으로 사람을 넘어서는 무언가를 향한다는 느낌**입니다. 자율운영은 비용/위험 감소를 바탕으로 리소스를 절약하여 혁신에 집중하게 해준다는 것이고 그에 맞게 다양한 WORKLOAD(운영절차)에 최적화 해준다는 것입니다. 이쯤에서 이건 무조건 해야 하는거고, 이게 현실이 되면 참 무서운 일들이 벌어질것 같습니다.
