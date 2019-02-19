@@ -297,3 +297,5 @@ defaults:
       comments: # true
       share: false
       related: true
+      toc: true
+      
