@@ -1,7 +1,7 @@
 ---
 title:  "ORACLE CLOUDWORLD 발표자료 리뷰"
 excerpt: "2019년 1월 29일에 있었던 Oracle CloudWorld Seoul 2019 의 발표자료에 대한 리뷰"
-layout: posts
+layout: single
 categories: [review]
 tags: [Oracle, Cloud]
 comments: false

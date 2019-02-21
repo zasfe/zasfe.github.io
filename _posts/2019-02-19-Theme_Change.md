@@ -1,13 +1,12 @@
 ---
 title:  "테마 변경은 언제나 즐거워"
 excerpt: "테마를 변경하면서 겪은 내용을 기록합니다. "
-layout: posts
+layout: single
 categories: [logs]
 tags: [jekyll theme, TIL, Today i Learned ]
 comments: false
 toc: true
-toc_label: "table of contents"
-toc_icon: "heart"
+toc_sticky: true
 last_modified_at: 2019-02-19T23:40:00+09:00
 ---
 
