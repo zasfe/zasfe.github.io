@@ -7,7 +7,7 @@ main:
   - title: "Tags"
     url: /tags/
   - title: "About"
-    url: https://zasfe.github.io/
+    url: /about/
   # - title: "About"
   #  url: /about/
   # - title: "Sitemap"

@@ -2,8 +2,8 @@
 title:  "테마 변경은 언제나 즐거워"
 excerpt: "테마를 변경하면서 겪은 내용을 기록합니다. "
 layout: single
-categories: [logs]
-tags: [jekyll theme, TIL, Today i Learned ]
+categories: [TIL (Today I Learned)]
+tags: [jekyll theme]
 comments: false
 toc: true
 toc_sticky: true
@@ -98,6 +98,8 @@ last_modified_at: 2019-02-19T23:40:00+09:00
 
 * 아직 여정은 끝나지 않았습니다.
   * 왜 작성 시간은 표시가 되지 않을까요?
+  * 공개용 위키 글을 하나씩 옮겨볼 생각입니다.
+  * 구글 AMP 도입
 * 작성은 윈도우 환경에서 VisualStudioCode 로 하고 있으며, github 의 pages 기능을 활용 합니다.
 * gitpages 에러가 눈에 잘 띄지 않아 ``bundle exec jekyll serve`` 로 로컬 테스트를 먼저 하고 ``push`` 하는 방법을 사용합니다.
   * push 한줄 명령 : ``git add . & git add -u & git commit -a -m "update" & git push origin master``

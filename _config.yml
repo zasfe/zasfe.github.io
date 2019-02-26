@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Today I learned"
+title                    : "Zasfe's 공부로그"
 title_separator          : "-"
 name                     : "zasfe"
 description              : "꾸준히 하다보면 점점 나아지겠지 하는 마음으로 공부한 내용을 정리하는 블로그입니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : zasfe/minimal-mistakes # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : zasfe/zasfe.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/cover_48x48.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -109,9 +109,9 @@ analytics:
 author:
   name             : "Tommy (Lee SangHun)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "I am an system enginner."
   location         : "Korea"
-  email            :
+  email            : myseit@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
