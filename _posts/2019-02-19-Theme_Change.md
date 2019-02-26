@@ -2,8 +2,8 @@
 title:  "테마 변경은 언제나 즐거워"
 excerpt: "테마를 변경하면서 겪은 내용을 기록합니다. "
 layout: single
-categories: [TIL (Today I Learned)]
-tags: [jekyll theme]
+categories: [TIL]
+tags: [jekyll theme, TIL, Today I Learned]
 comments: false
 toc: true
 toc_sticky: true
