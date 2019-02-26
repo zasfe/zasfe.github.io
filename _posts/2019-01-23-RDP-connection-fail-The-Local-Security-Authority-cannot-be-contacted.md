@@ -2,7 +2,7 @@
 title: "로컬 보안 기관에 연결할 수 없습니다."
 excerpt: "원격 데스크톱 서버 연결시 로컬 보안 기관에 연결할 수 없습니다 라는 오류 조치 방법"
 layout: single
-categories: [Knowledge]
+categories: [Computer]
 tags: [문제해결, RDP, Window]
 comments: false
 toc: true
