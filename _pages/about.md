@@ -10,8 +10,7 @@ layout: single
 
 ## 현재
 
-* [(주)가비아](https://www.gabia.com/) 보안IDC운영실 기술지원팀
-* Senior Technical Engineer
+* [(주)가비아](https://www.gabia.com/) 재직
 
 ## 연락처
 - Email : myseit@gmail.com
@@ -42,10 +41,11 @@ layout: single
   * Nginx
   * IIS
 
-* Bash
-* ASP
-* Batch
-* VBScript
+* Script
+  * Bash
+  * ASP
+  * Batch File
+  * VBScript
 
 * Docker
 
@@ -56,7 +56,7 @@ layout: single
 
 ## 보유자격
 
-* Solutions Architect - Associate (AWS)
+* AWS Certified Solutions Architect - Professional (AWS)
 * 정보처리기사 (한국산업인력공단)
 * ITIL v3 Foundation (EXIN)
 
