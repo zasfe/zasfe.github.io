@@ -1,6 +1,6 @@
 ---
 title: "스스로 AD의 계정 패스워드 변경 사이트 구축하기(PassCore 활용)"
-excerpt: "Active Directory 환경에서 스스로 비밀번호를 변경할 수 있는 단일 페이지 웹서비스를 생성할 수 있는 사례를 합니다. "
+excerpt: "Active Directory 환경에서 스스로 비밀번호를 변경할 수 있는 단일 페이지 웹서비스를 생성할 수 있는 사례를 소개합니다. "
 layout: single
 categories: [Computer]
 tags: [Active Directory, LDAP]
