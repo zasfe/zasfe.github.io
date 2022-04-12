@@ -3,7 +3,7 @@ title: "윈도우에서 별도의 프로그램 없이 파일의 MD5 체크섬을
 excerpt: "파일이 동일한지 비교를 위해 MD5 체크섬을 확인하는 방법을 설명합니다."
 layout: single
 categories: [Computer]
-tags: [Window Checksum,Windows MD5 Checksum, MD5, checksum, certutil]
+tags: [Window Checksum,Windows MD5 Checksum, MD5, checksum, certutil.exe, hash]
 comments: false
 toc: true
 last_modified_at: 2022-04-12T00:28:57+09:00
@@ -18,6 +18,7 @@ last_modified_at: 2022-04-12T00:28:57+09:00
 
 `MD2, MD4, MD5, SHA1, SHA256, SHA384, SHA512` HASH 알고리즘을 사용할 수 있습니다. 
 
+## 확인하는 방법
 
 * 명령어: `certutil -hashfile <file> MD5`
 * 실행 예시
@@ -44,7 +45,7 @@ CertUtil: -hashfile 명령이 성공적으로 완료되었습니다.
 D:\0.tmp\work>
 ```
 
-
+## 지원하는 해시 알고리즘
 
 ```
 D:\0.tmp\work>certutil -hashfile -?
@@ -72,6 +73,6 @@ CertUtil -v -?           -- 모든 동사의 도움말 텍스트를 모두 표�
 ```
 
 
-### 참조
+## 참조
   * [https://docs.microsoft.com/ko-kr/windows-server/administration/windows-commands/certutil](https://docs.microsoft.com/ko-kr/windows-server/administration/windows-commands/certutil)
   * [https://portal.nutanix.com/page/documents/kbs/details?targetId=kA07V000000LWYqSAO](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA07V000000LWYqSAO)
