@@ -2,8 +2,8 @@
 title: "2024.04.21 ansible 4일차 - Learning Ansible 2.7"
 excerpt: "Ansible 사용법을 공부합니다."
 layout: single
-categories: [Computer]
-tags: [Ansible,Automation]
+categories: [TIL]
+tags: [Ansible, Automation, TIL, Today I Learned]
 comments: false
 toc: true
 last_modified_at: 2024-04-21T04:38:00+09:00
@@ -19,6 +19,44 @@ last_modified_at: 2024-04-21T04:38:00+09:00
   * https://subscription.packtpub.com/book/cloud-and-networking/9781789954333/5/ch05lvl1sec28/working-with-variables
   * /home/opc/Learning-Ansible-2.X-Third-Edition-master/Chapter03
 
+<details>
+<summary> ansible playbook 을 빠르게 설정 보기 접기/펼치기</summary>
+
+<!-- summary 아래 한칸 공백 두어야함 -->
+
+* https://www.redhat.com/sysadmin/faster-ansible-playbook-execution
+
+```bash
+# faster-ansible-playbook-execution
+
+if ! grep -i -q callbacks_enabled "ansible.cfg"; then
+  sed -i 's/\[defaults\]/\[defaults\]\n## display tasks times\ncallbacks_enabled = timer, profile_tasks, profile_roles/' ./ansible.cfg
+fi
+
+if ! grep -i -q forks "ansible.cfg"; then
+  sed -i 's/\[defaults\]/\[defaults\]\n## parallelism running, default 5, Task5\(start-\>end\) -\> Task5 \nforks=50/' ./ansible.cfg
+fi
+
+if ! grep -i -q host_key_checking "ansible.cfg"; then
+  sed -i 's/\[defaults\]/\[defaults\]\n## Disable host key check\nhost_key_checking = False/' ./ansible.cfg
+fi
+
+if ! grep -i -q pipelining "ansible.cfg"; then
+  sed -i 's/\[defaults\]/\[defaults\]\n## SSH connections reduce\npipelining = True/' ./ansible.cfg
+fi
+
+if ! grep -i -q ssh_connection "ansible.cfg"; then
+  echo "[ssh_connection]" >> ./ansible.cfg
+  echo "ssh_args = -o ControlMaster=auto -o ControlPersist=60s" >> ./ansible.cfg
+fi
+
+```
+</details>
+
+
+* 공부한 것
+  * Scaling to Multiple Hosts
+    
 
 ## collections 스크립트
 
