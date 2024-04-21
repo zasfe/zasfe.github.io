@@ -32,6 +32,7 @@ last_modified_at: 2024-04-22T04:38:00+09:00
 * lab용 client container 설정 스크립트 작성
   * test01 - centos: https://github.com/zasfe/Labs/blob/master/ansible/lab_ansible_client-test01-centos-container.sh
   * ws01,ws02,db01 - centos: https://github.com/zasfe/Labs/blob/master/ansible/lab_ansible_client_centos-container-3ea.sh
+  * ws03 - debian: https://github.com/zasfe/Labs/blob/master/ansible/lab_ansible_client_debian-container.sh
 * debian 컨테이너 빌드 및 docker hub 등록하도록 github action 설정 완료
   * repo: https://github.com/zasfe/docker-debian-systemd
   * container image: https://hub.docker.com/r/zasfe/debian
