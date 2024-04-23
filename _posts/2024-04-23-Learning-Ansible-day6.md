@@ -20,13 +20,13 @@ last_modified_at: 2024-04-23T02:47:00+09:00
 
 ```bash
 #!/bin/bash
-
+{% raw %}
 # create centos container - test01 
 docker run -d --privileged --name test01 zasfe/centos:7-systemd-vagrant /usr/sbin/init
-echo "`docker inspect -f "\{\{ .NetworkSettings.IPAddress \}\}" test01` test01.fale.io" | sudo tee -a /etc/hosts
+echo "`docker inspect -f "{{ .NetworkSettings.IPAddress }}" test01` test01.fale.io" | sudo tee -a /etc/hosts
 sshpass -p vagrant ssh-copy-id -f -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no vagrant@test01.fale.io
 sshpass -p vagrant ssh-copy-id -f -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no vagrant@`docker inspect -f "\{\{ .NetworkSettings.IPAddress \}\}" test01`
-
+{% endraw %}
 
 # create centos container - ws01, ws02, db01 
 docker run -d --privileged --name ws01 zasfe/centos:7-systemd-vagrant /usr/sbin/init
