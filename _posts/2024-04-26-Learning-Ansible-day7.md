@@ -10,7 +10,7 @@ last_modified_at: 2024-04-26T02:47:00+09:00
 ---
 
 
-# 2024.04.23 ansible 6일차 (Chapter04)
+# 2024.04.26 ansible 7일차 (Chapter04)
 
 - 교재: Learning Ansible 2.7 - Third Edition [(packtpub)](https://www.packtpub.com/product/learning-ansible-27-third-edition/9781789954333) [(github)](https://github.com/PacktPublishing/Learning-Ansible-2.X-Third-Edition)
 - [(ansible playbook 빠른 실행)](https://github.com/zasfe/Labs/blob/master/ansible/faster-ansible-playbook-execution.sh)
