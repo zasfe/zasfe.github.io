@@ -1,5 +1,3 @@
-2024-04-26-Learning-Ansible-day6.md
-
 ---
 title: "2024.04.26 ansible 7일차(Chapter04) - Learning Ansible 2.7"
 excerpt: "Ansible 사용법을 공부합니다."
