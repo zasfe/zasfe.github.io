@@ -212,8 +212,8 @@ docker run -d --privileged --name ws02s zasfe/centos:7-systemd-vagrant /usr/sbin
 docker run -d --privileged --name db01s zasfe/centos:7-systemd-vagrant /usr/sbin/init
 docker run -d --privileged --name builder01 zasfe/centos:7-systemd-vagrant /usr/sbin/init
 
-echo "`docker inspect -f "\{\{ .NetworkSettings.IPAddress \}\}" ws01` ws01.fale.io ws01" | sudo tee -a /etc/hosts
-echo "`docker inspect -f "\{\{ .NetworkSettings.IPAddress }}" ws02` ws02.fale.io ws02" | sudo tee -a /etc/hosts
+echo "`docker inspect -f "\{{ .NetworkSettings.IPAddress }}" ws01` ws01.fale.io ws01" | sudo tee -a /etc/hosts
+echo "`docker inspect -f "\{{ .NetworkSettings.IPAddress \}}" ws02` ws02.fale.io ws02" | sudo tee -a /etc/hosts
 echo "`docker inspect -f "{{ .NetworkSettings.IPAddress }}" db01` db01.fale.io db01" | sudo tee -a /etc/hosts
 echo "`docker inspect -f "{{ .NetworkSettings.IPAddress }}" ws01s` ws01.staging.fale.io ws01s" | sudo tee -a /etc/hosts
 echo "`docker inspect -f "{{ .NetworkSettings.IPAddress }}" ws02s` ws02.staging.fale.io ws02s" | sudo tee -a /etc/hosts
