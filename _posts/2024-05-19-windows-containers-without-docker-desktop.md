@@ -15,7 +15,34 @@ last_modified_at: 2024-05-19T10:47:00+09:00
 > Markus Lippert 의 글인 [Running Windows and Linux containers without Docker Desktop](https://lippertmarkus.com/2021/09/04/containers-without-docker-desktop/) 를 기반으로 테스트하고 결과를 기록합니다.
 
 
-회사나 집에서 윈도우를 기본으로 사용하고 있습니다. 이제까지는 WSL(Linux용 Windows 하위 시스템)로 리눅스 OS에서 컨테이너를 이용해서 테스트를 했지만 윈도우 컨테이너는 WSL에서 구동할 수 없어서 윈도우 PC에서 설정하고 컨테이너를 사용하는 것까지 테스트하였습니다.
+회사나 집에서 윈도우를 기본으로 사용하고 있습니다. 
+
+이제까지는 WSL(Linux용 Windows 하위 시스템)로 리눅스 OS에서 컨테이너를 이용해서 테스트를 했지만 윈도우 컨테이너 테스트가 필요했고 Docker.com 는 윈도우에서 컨테이너를 사용하는 경우 Docker Desktop을 사용하도록 매뉴얼을 제공하고 있습니다.
+
+하지만 Docker Desktop 라이선스가 이전 무료에서 250인 이상 또는 매출 등 기준을 초과하는 경우 비용이 발생하도록 변경되어 대안을 찾아야 했습니다.
+
+이 글은 윈도우 호스트 PC에 윈도우 컨테이너와 리눅스 컨테이너를 사용할 수 있는 환경을 구성하고 사용하는 방법을 테스트한 방법을 정리한 것입니다.
+
+
+**테스트 환경**
+```
+# 윈도우 호스트 PC
+Microsoft Windows 10 Pro (10.0.19045 N/A 빌드 19045) 
+
+
+# WSL 버전
+WSL 버전: 2.1.5.0
+커널 버전: 5.15.146.1-2
+WSLg 버전: 1.0.60
+MSRDC 버전: 1.2.5105
+Direct3D 버전: 1.611.1-81528511
+DXCore 버전: 10.0.25131.1002-220531-1700.rs-onecore-base2-hyp
+Windows 버전: 10.0.19045.4412
+
+# WSL OS
+Ubuntu 20.04.3 LTS(Focal Fossa)
+```
+
 
 
 ## Windows Containers 기능 설치
@@ -119,4 +146,4 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 
 이렇게 윈도우 호스트 PC에서 도커 데스크탑 없이 컨테이너를 생성하고 사용하는 방법을 테스트하고 그 결과를 기록합니다.
 
-EOF
+EOD
